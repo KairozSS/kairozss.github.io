@@ -9,10 +9,10 @@ html {
 
 body {
   background: $white;
-  font-family: $sans-font-family;
+  font-family: $helvetica;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.66666666667;
+  line-height: 1.4;
   color: $darkGray;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
@@ -48,7 +48,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
   color: $darkerGray;
-  font-family: $sans-font-family;
+  font-family: $helveticaNeue;
   font-weight: 700;
   line-height: 1.66666666667;
 }
@@ -456,7 +456,7 @@ a[href^="#fnref:"] {
 .site-name {
   margin: 0;
   color: $darkGray;
-  font-family: $sans-font-family;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px !important;
   letter-spacing: 01px;
@@ -483,7 +483,7 @@ a[href^="#fnref:"] {
 }
 
 nav {
-  font-family: $sans-font-family;
+  font-family: $helveticaNeue;
   font-size: 18px !important;
 
   @include mobile {
