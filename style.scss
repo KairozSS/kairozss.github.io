@@ -76,13 +76,8 @@ a {
   color: $blue;
   text-decoration: none;
 
-  &:visited {
-    color: $purple;
-  }
-
-  &:hover {
+  &:hover, &:active {
     color: $blue;
-    text-decoration: underline;
   }
 }
 
@@ -173,10 +168,6 @@ hr {
   .categories-button:hover {
     color: $darkGray;
     text-decoration: underline;
-  }
-
-  .categories-button:visited {
-    color: inherit;
   }
 }
 
@@ -456,20 +447,11 @@ a[href^="#fnref:"] {
 .site-name {
   margin: 0;
   color: $darkGray;
+  cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px !important;
   letter-spacing: 01px;
-
-  a {
-    &:hover {
-      color: $mahogany !important;
-      text-decoration: none;
-    }
-    &:visited {
-      color: inherit;
-    }
-  }
 }
 
 .site-description {
@@ -500,13 +482,6 @@ nav {
     font-weight: 300;
     letter-spacing: 01px;
 
-      &:hover {
-        color: inherit;
-        text-decoration: underline;
-      }
-      &:visited {
-        color: inherit;
-      }
         @include mobile {
           margin: 0 10px;
           color: $blue;
@@ -517,7 +492,6 @@ nav {
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: $mahogany;
 }
 
 .clearfix:before,
@@ -553,27 +527,11 @@ a.nav-menu-item:focus {
   .read-more {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
-
-    a {
-      color: $mahogany;
-      text-decoration: none;
-    }
-
-      &:visited {
-        color: $mahogany;
-      }
-
-        &:hover {
-          color: $mahogany;
-          text-decoration: underline;
-        }
   }
 
   .reading-time {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
   }
 }
 
