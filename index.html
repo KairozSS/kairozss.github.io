@@ -19,7 +19,7 @@ layout: default
 
       {% else %}
 
-      {{ post.excerpt }}
+      {{ post.excerpt | markdownify | truncate: 10 }}
 
       {% endif %}
     </div>
