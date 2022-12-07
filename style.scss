@@ -287,11 +287,11 @@ pre {
 .highlight {
   isolation: isolate;
   border-radius: 03px;
-  background: #fdf6e3;
+  background: #272822;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #fdf6e3;
+    background: #272822;
   }
 }
 
