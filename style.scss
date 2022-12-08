@@ -263,10 +263,6 @@ pre,
 code {
   font-family: $code-font-family !important;
   font-size: 15px !important;
-  color: #586e75;
-  border: 01px solid #dddddd;
-  border-radius: 03px;
-  background-color: #fdf6e3;
 }
 
 code {
@@ -286,7 +282,7 @@ pre {
 
 .highlight {
   isolation: isolate;
-  border-radius: 03px;
+  border-radius: 20px;
   background: #272822;
   @extend %vertical-rhythm;
 
