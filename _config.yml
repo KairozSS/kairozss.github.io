@@ -65,6 +65,8 @@ excerpt_separator: <!--more-->
 # !! You don't need to change any of the configuration flags below !!
 #
 
+future: true
+
 permalink: pretty
 
 # Jekyll 3 now only supports Kramdown for Markdown
