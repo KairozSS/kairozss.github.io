@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Create your own MLFlow custom flavors for model registry
+title: Test
 categories: [test]
 ---
 
